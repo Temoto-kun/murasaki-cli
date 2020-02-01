@@ -1,0 +1,16 @@
+{
+	"name": "@murasaki/cli",
+	"version": "0.0.0",
+	"description": "CLI for performing functions in Murasaki.",
+	"bin": {
+		"murasaki": "dist/index.cjs"
+	},
+	"repository": "https://github.com/Temoto-kun/murasaki-cli.git",
+	"author": "TheoryOfNekomata <allan.crisostomo@outlook.com>",
+	"license": "MIT",
+	"private": false,
+	"dependencies": {
+		"yargs": "^15.1.0",
+		"@murasaki/dataset-importer": "0.0.0"
+	}
+}
